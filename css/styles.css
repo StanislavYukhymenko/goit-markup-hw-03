@@ -1,0 +1,674 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+	background: #ffffff;
+}
+
+.p {
+	font-weight: 400;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+/*--------------------Header------------------*/
+
+.header {
+}
+
+.header-navigation {
+}
+
+.header-home-page {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
+}
+
+.header-home-page-descr {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #2e2f42;
+}
+
+.header-list {
+}
+
+.header-item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.header-link-studio {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.header-link-studio:hover {
+	color: #4d5ae5;
+}
+
+.header-link-portfolio {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.header-link-portfolio:hover {
+	color: #4d5ae5;
+}
+
+.header-link-contacts {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.header-link-contacts:hover {
+	color: #4d5ae5;
+}
+
+.header-contacts {
+}
+
+.header-contacts-list {
+}
+
+.header-contacts-item {
+}
+
+.header-mailto {
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+	text-decoration: none;
+}
+
+.header-mailto:hover {
+	color: #4d5ae5;
+}
+
+.header-tel {
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+	text-decoration: none;
+}
+
+.header-tel:hover {
+	color: #4d5ae5;
+}
+
+/*--------------------------Main-------------------------------*/
+
+.main {
+}
+
+/*-----------------------Hero Section-------------------------*/
+
+.hero-section {
+	background: #2e2f42;
+}
+
+.hero-section-title {
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+.hero-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: #f4f4fd;
+	background: #4d5ae5;
+}
+
+/*------------------Advantages Section------------------------*/
+
+.advantages-section {
+}
+
+.advantages-section-title {
+}
+
+.advantages-list {
+}
+
+.advantages-strategy {
+}
+
+.strategy-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.strategy-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.advantages-punctuality {
+}
+
+.punctuality-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.punctuality-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.advantages-diligence {
+}
+
+.diligence-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.diligence-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.advantages-technologies {
+}
+
+.technologies-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.technologies-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+/*------------------Working Section--------------------*/
+
+.working-section {
+}
+
+.working-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+}
+
+.working-list {
+}
+
+.working-image-item {
+}
+
+/*---------------Team Section------------------*/
+
+.team-section {
+}
+
+.our-team-title {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+}
+
+.our-team-list {
+}
+
+.product-designer-content {
+}
+
+.name-product-designer {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.product-designer-title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.product-frontend-developer {
+}
+
+.name-frontend-developer {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.frontend-developer-title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.product-marketing {
+}
+
+.name-marketing {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.marketing-title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.product-ui-designer {
+}
+
+.name-ui-designer {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.ui-designer-title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+/*------------------- Footer------------------*/
+
+.footer {
+	background: #2e2f42;
+}
+
+.footer-link {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
+}
+
+.footer-link-descr {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #f4f4fd;
+}
+
+.footer-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #e7e9fc;
+}
+
+/*----------------------Portfolio---------------------*/
+
+.activity-section {
+}
+
+.activity-list {
+}
+
+.activity-item {
+}
+
+.all-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+}
+
+.all-btn:hover,
+.all-btn:focus {
+	background: #404bbf;
+	color: #ffffff;
+}
+
+.web-site-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+}
+
+.web-site-btn:hover,
+.web-site-btn:focus {
+	background: #404bbf;
+	color: #ffffff;
+}
+
+.app-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+}
+
+.app-btn:hover,
+.app-btn:focus {
+	background: #404bbf;
+	color: #ffffff;
+}
+
+.design-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+}
+
+.design-btn:hover,
+.design-btn:focus {
+	background: #404bbf;
+	color: #ffffff;
+}
+
+.marketing-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+}
+
+.marketing-btn:hover,
+.marketing-btn:focus {
+	background: #404bbf;
+	color: #ffffff;
+}
+
+.service-section {
+}
+
+.service-section-list {
+}
+
+.service-banking-app-interface-concept {
+}
+
+.name-banking-app-interface-concept {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.banking-app-interface-concept-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-cashless-payment {
+}
+
+.name-cashless-payment {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.cashless-payment-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-meditaion-app {
+}
+
+.name-meditaion-app {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.meditaion-app-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-taxi-service {
+}
+
+.name-taxi-service {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.taxi-service-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-screen-illustrations {
+}
+
+.name-screen-illustrations {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.screen-illustrations-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-online-courses {
+}
+
+.name-online-courses {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.online-courses-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-instagram-stories-concept {
+}
+
+.name-instagram-stories-concept {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.instagram-stories-concept-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-organic-food {
+}
+
+.name-organic-food {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.organic-food-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.service-fresh-coffee {
+}
+
+.name-fresh-coffee {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.fresh-coffee-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
