@@ -13,7 +13,14 @@ ul {
 	padding: 0;
 }
 
+img {
+	display: block;
+}
+
 body {
+	padding-left: 156px;
+	padding-right: 156px;
+
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -46,7 +53,13 @@ body {
 .header {
 }
 
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
 .header-navigation {
+	display: flex;
 }
 
 .header-home-page {
@@ -74,17 +87,19 @@ body {
 }
 
 .header-list {
+	display: flex;
+	margin-left: 76px;
 }
 
-.header-item {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: #2e2f42;
+.header-list .header-item:not(:last-child) {
+	margin-right: 40px;
 }
 
 .header-link-studio {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -97,6 +112,10 @@ body {
 }
 
 .header-link-portfolio {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -109,6 +128,10 @@ body {
 }
 
 .header-link-contacts {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -121,12 +144,15 @@ body {
 }
 
 .header-contacts {
+	margin-left: auto;
 }
 
 .header-contacts-list {
+	display: flex;
 }
 
-.header-contacts-item {
+.header-contacts-item + .header-contacts-item {
+	margin-left: 40px;
 }
 
 .header-mailto {
