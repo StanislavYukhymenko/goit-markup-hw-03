@@ -158,6 +158,7 @@ body {
 
 .header-mailto {
 	font-style: normal;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -171,6 +172,7 @@ body {
 
 .header-tel {
 	font-style: normal;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -190,36 +192,35 @@ body {
 /*-----------------------Hero Section-------------------------*/
 
 .hero-section {
-	padding-top: 24px;
-	padding-bottom: 120px;
+	padding-top: 188px;
+	padding-bottom: 188px;
 	background: #2e2f42;
 }
 
 .hero-section-title {
-	padding-top: 188px;
-	padding-bottom: 48px;
+	margin: auto;
+	margin-bottom: 48px;
 	width: 496px;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
-	margin: auto;
 	letter-spacing: 0.02em;
 	color: #ffffff;
 }
 
 .hero-btn {
 	padding: 16px 32px;
-
+	margin: auto;
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	display: block;
-	margin: auto;
-	align-items: center;
 	letter-spacing: 0.04em;
 	color: #f4f4fd;
 	background: #4d5ae5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
 
 /*------------------Advantages Section------------------------*/
@@ -263,7 +264,7 @@ body {
 
 .working-section {
 	padding-top: 120px;
-	padding-bottom: 34px;
+	padding-bottom: 120px;
 }
 
 .working-title {
@@ -289,14 +290,12 @@ body {
 /*---------------Team Section------------------*/
 
 .team-section {
-	padding-top: 34px;
+	padding-top: 120px;
 	padding-bottom: 120px;
-	margin-bottom: 86px;
 	background: #f4f4fd;
 }
 
 .our-team-title {
-	margin-top: 120px;
 	margin-bottom: 72px;
 	font-size: 36px;
 	line-height: 1.11;
@@ -314,12 +313,17 @@ body {
 	background: #ffffff;
 }
 
-.our-team-list .team-content:not(:last-child) {
+.our-team-list .team-container-content:not(:last-child) {
 	margin-right: 24px;
 }
 
+.team-container-container {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
 .name-team {
-	margin-top: 32px;
+	margin-bottom: 8px;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -329,8 +333,6 @@ body {
 }
 
 .team-desc {
-	margin-top: 8px;
-	margin-bottom: 32px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -342,12 +344,12 @@ body {
 /*------------------- Footer------------------*/
 
 .footer {
-	margin-top: 120px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background: #2e2f42;
 }
 
 .footer-link {
-	padding-top: 100px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
@@ -374,7 +376,6 @@ body {
 .footer-desc {
 	width: 264px;
 	margin-top: 16px;
-	padding-bottom: 100px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -385,11 +386,14 @@ body {
 /*----------------------Portfolio---------------------*/
 
 .activity-section {
+	padding-top: 96px;
+	padding-bottom: 72px;
+}
+
+.activity-container {
 }
 
 .activity-list {
-	margin-top: 96px;
-	margin-bottom: 72px;
 	display: flex;
 	justify-content: center;
 }
@@ -398,7 +402,7 @@ body {
 	margin-right: 24px;
 }
 
-.all-btn {
+.activity-btn {
 	padding: 12px 24px;
 	font-family: inherit;
 	font-weight: 500;
@@ -409,86 +413,13 @@ body {
 	text-align: center;
 	letter-spacing: 0.04em;
 	color: #4d5ae5;
+	background: #f4f4fd;
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
 }
 
-.all-btn:hover,
-.all-btn:focus {
-	background: #404bbf;
-	color: #ffffff;
-}
-
-.web-site-btn {
-	padding: 12px 24px;
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.04em;
-	color: #4d5ae5;
-}
-
-.web-site-btn:hover,
-.web-site-btn:focus {
-	background: #404bbf;
-	color: #ffffff;
-}
-
-.app-btn {
-	padding: 12px 24px;
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.04em;
-	color: #4d5ae5;
-}
-
-.app-btn:hover,
-.app-btn:focus {
-	background: #404bbf;
-	color: #ffffff;
-}
-
-.design-btn {
-	padding: 12px 24px;
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.04em;
-	color: #4d5ae5;
-}
-
-.design-btn:hover,
-.design-btn:focus {
-	background: #404bbf;
-	color: #ffffff;
-}
-
-.marketing-btn {
-	padding: 12px 24px;
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.04em;
-	color: #4d5ae5;
-}
-
-.marketing-btn:hover,
-.marketing-btn:focus {
+.activity-btn:hover,
+.activity-btn:focus {
 	background: #404bbf;
 	color: #ffffff;
 }
@@ -513,24 +444,24 @@ body {
 	margin-right: 0;
 }
 
+.service-container-content {
+	padding: 32px 0px 32px 16px;
+	border-bottom: 1px solid #e7e9fc;
+	border-left: 1px solid #e7e9fc;
+	border-right: 1px solid #e7e9fc;
+}
+
 .service-name {
-	padding-top: 32px;
 	margin-bottom: 8px;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
-	border-left: 1px solid #e7e9fc;
-	border-right: 1px solid #e7e9fc;
 }
 
 .service-title {
-	padding-bottom: 32px;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
-	border-bottom: 1px solid #e7e9fc;
-	border-left: 1px solid #e7e9fc;
-	border-right: 1px solid #e7e9fc;
 }
