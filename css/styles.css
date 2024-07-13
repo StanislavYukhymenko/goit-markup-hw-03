@@ -6,11 +6,33 @@ body {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
   color: #2e2f42;
+}
+
+.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visually-hidden {
@@ -25,6 +47,8 @@ a {
 /* ------------------ Header  ------------------------- */
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -50,6 +74,7 @@ a {
 }
 
 .heder-menu-list {
+  padding-bottom: 48px;
 }
 
 .heder-menu-item {
