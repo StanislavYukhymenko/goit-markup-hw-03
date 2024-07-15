@@ -40,6 +40,10 @@ h6 {
   margin-right: auto;
 }
 
+.img {
+  display: block;
+}
+
 .visually-hidden {
   white-space: nowrap;
   clip-path: inset(100%);
@@ -64,6 +68,7 @@ h6 {
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .heder-logo {
@@ -74,6 +79,7 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .heder-logo-studio {
@@ -83,12 +89,13 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .heder-menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .heder-menu-item {
@@ -139,11 +146,11 @@ h6 {
 
 .hero-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -158,11 +165,6 @@ h6 {
   max-width: 496px;
 }
 
-.container-hero-btn {
-  display: flex;
-  justify-content: center;
-}
-
 .hero-button {
   font-family: inherit;
   font-weight: 500;
@@ -173,10 +175,14 @@ h6 {
 
   background: #4d5ae5;
   cursor: pointer;
-
-  padding: 16px 32px;
+  display: block;
   border-radius: 4px;
   border: none;
+
+  min-width: 169px;
+  height: 56px;
+  margin: auto;
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -189,11 +195,11 @@ h6 {
 /* --------------------- Section Possibilities ------------------- */
 
 .section-possibilities {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .possibilities-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .list-of-possibilities {
@@ -211,6 +217,7 @@ h6 {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .possibilities-item-text {
@@ -226,11 +233,11 @@ h6 {
 
 .section-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-title {
@@ -287,11 +294,11 @@ h6 {
 /* --------------------- Section Portfolio ------------------- */
 
 .section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -349,11 +356,11 @@ h6 {
 
 .section-footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .footer-logo-link {
@@ -373,6 +380,8 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -380,7 +389,6 @@ h6 {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
   max-width: 264px;
 }
 
