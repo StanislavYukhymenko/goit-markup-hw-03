@@ -56,6 +56,8 @@ img {
 /* ------------------ Header  ------------------------- */
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -120,8 +122,6 @@ img {
 }
 
 .header-navigation-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-navigation-link {
@@ -130,6 +130,8 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation-link:hover,
