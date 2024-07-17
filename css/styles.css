@@ -61,10 +61,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-  display: flex;
-}
-
 .header-navigation {
   display: flex;
   align-items: center;
@@ -147,9 +143,6 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-
-.hero-container {
 }
 
 .hero-title {
@@ -293,9 +286,6 @@ img {
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.portfolio-container {
 }
 
 .portfolio-title {
